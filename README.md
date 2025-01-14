@@ -18,4 +18,26 @@ The dataset contains the following columns:
   - 2: E-Service
   - 3: Plus Service
   - 4: Total Service
+## Data Preprocessing
+- Handling missing values
+- Encoding categorical variables
+- Normalizing or scaling features
 
+## Exploratory Data Analysis (EDA)
+Visualization of key features and their relationships to understand the dataset better.
+
+## Model Implementation
+- Splitting data into training and testing sets
+- Implementing the KNN algorithm
+- Optimizing hyperparameters using cross-validation
+
+## Performance Evaluation
+- Accuracy, precision, recall, and F1-score metrics are calculated.
+- Confusion matrix and classification report are generated.
+
+## Requirements
+- Python 3.7 or later
+- Jupyter Notebook
+- Libraries: pandas, numpy, matplotlib, seaborn, scikit-learn
+
+Feel free to contribute or raise issues for further improvements.
