@@ -2,15 +2,14 @@ knn_params = {"n_neighbors" : np.arange(1,50),
              "metric" : ["minkowski", "euclidean", "manhattan"],
              "weights": ["uniform", "distance"]}
     1. "n_neighbors": This key corresponds to the number of neighbors to consider for classification. The value np.arange(1, 50) generates an array of integers from 1 to 49. This means the model will try each of these values to find the optimal number of neighbors.
-    2. 
-"metric": This key specifies the distance metric to use for calculating the distance between points. The possible values are:        
+    
+    2."metric": This key specifies the distance metric to use for calculating the distance between points. The possible values are:        
 
-"minkowski": A generalization of the Euclidean and Manhattan distanc        es.
-"euclidean": The straight-line distance between two poi        nts.
-"manhattan": The sum of the absolute differences of their coordinates (also known as L1 dist
+                "minkowski": A generalization of the Euclidean and Manhattan distances.
+                "euclidean": The straight-line distance between two points.
+                "manhattan": The sum of the absolute differences of their coordinates (also known as L1 distance).
 
-    3. nce).
-"weights": This key determines how the influence of each neighbor is weighted. The possible valu
+    3."weights": This key determines how the influence of each neighbor is weighted. The possible values are:
 
-        "uniform": All neighbors have equal weight.        
+        "uniform": All neighbors have equal weight.    
 "distance": Closer neighbors have a greater influence on the prediction than farther ones.sWe have seen that GridSearch has indeed increased the accuracy score to 35% from 33.5% our KNN model.
